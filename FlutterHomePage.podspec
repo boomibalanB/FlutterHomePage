@@ -3,6 +3,7 @@ Pod::Spec.new do |s|
   s.version          = '0.0.1'
   s.summary          = 'Flutter iOS home page framework'
   s.homepage         = 'https://github.com/boomibalanB/FlutterHomePage.git'
+  s.license          = { :type => 'MIT' }  # Removed file reference
   s.author           = { 'Boomibalan B' => 'boomibalan.b@syncfusion.com' }
   s.source           = { :git => 'https://github.com/boomibalanB/FlutterHomePage.git', :tag => s.version.to_s }
    # Download and extract frameworks at install time
