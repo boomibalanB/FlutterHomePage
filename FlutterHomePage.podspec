@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
   # Download and extract frameworks at install time
   s.prepare_command = <<-CMD
-    curl -L -o Flutter.zip https://github.com/boomibalanB/FlutterHomePage/blob/main/Flutter.xcframework.zip
+    curl -L -o Flutter.xcframework.zip https://github.com/boomibalanB/FlutterHomePage/blob/main/Flutter.xcframework.zip
     unzip Flutter.xcframework.zip
   CMD
 
