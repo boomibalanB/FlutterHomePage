@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/boomibalanB/FlutterHomePage.git', :tag => s.version.to_s }
 
   s.prepare_command = <<-CMD
-    curl -L -o Flutter.xcframework.zip https://github.com/boomibalanB/FlutterHomePage/releases/download/v0.0.1/Flutter.xcframework.zip
+    curl -L -o Flutter.xcframework.zip https://github.com/boomibalanB/FlutterHomePage/blob/0.0.1/Flutter.xcframework.zip
     unzip Flutter.xcframework.zip
   CMD
 
