@@ -1,0 +1,197 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "flutterSampleXCFramework",
+    "printedName": "flutterSampleXCFramework",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "flutterSampleXCFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "flutterSampleXCFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "FlutterPluginRegistrant",
+        "printedName": "FlutterPluginRegistrant",
+        "declKind": "Import",
+        "moduleName": "flutterSampleXCFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FlutterBridgeView",
+        "printedName": "FlutterBridgeView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(route:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterBridgeView",
+                "printedName": "flutterSampleXCFramework.FlutterBridgeView",
+                "usr": "s:24flutterSampleXCFramework17FlutterBridgeViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24flutterSampleXCFramework17FlutterBridgeViewV5routeACSS_tcfc",
+            "mangledName": "$s24flutterSampleXCFramework17FlutterBridgeViewV5routeACSS_tcfc",
+            "moduleName": "flutterSampleXCFramework",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24flutterSampleXCFramework17FlutterBridgeViewV4bodyQrvp",
+            "mangledName": "$s24flutterSampleXCFramework17FlutterBridgeViewV4bodyQrvp",
+            "moduleName": "flutterSampleXCFramework",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24flutterSampleXCFramework17FlutterBridgeViewV4bodyQrvg",
+                "mangledName": "$s24flutterSampleXCFramework17FlutterBridgeViewV4bodyQrvg",
+                "moduleName": "flutterSampleXCFramework",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:24flutterSampleXCFramework17FlutterBridgeViewV",
+        "mangledName": "$s24flutterSampleXCFramework17FlutterBridgeViewV",
+        "moduleName": "flutterSampleXCFramework",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/mohammedismailsameer\/Documents\/XcodeProjects\/First IOS framework\/flutterSampleXCFramework\/flutterSampleXCFramework\/FlutterBridgeView.swift",
+      "kind": "StringLiteral",
+      "offset": 218,
+      "length": 16,
+      "value": "\"\/create_ticket\""
+    }
+  ]
+}

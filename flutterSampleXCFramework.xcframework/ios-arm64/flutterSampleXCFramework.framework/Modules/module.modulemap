@@ -1,0 +1,6 @@
+framework module flutterSampleXCFramework {
+  umbrella header "flutterSampleXCFramework.h"
+  export *
+
+  module * { export * }
+}
