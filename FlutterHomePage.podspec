@@ -9,16 +9,8 @@ Pod::Spec.new do |s|
   # Git source for code files
   s.source = { :git => 'https://github.com/boomibalanB/FlutterHomePage.git', :tag => s.version.to_s }
 
-  # Download and extract frameworks at install time
-  s.prepare_command = <<-CMD
-    curl -L -o Flutter.xcframework.zip https://github.com/boomibalanB/FlutterHomePage/blob/main/Flutter.xcframework.zip
-    unzip Flutter.xcframework.zip
-  CMD
-
-  # Frameworks inside the ZIP
-  s.vendored_frameworks = 'FlutterPluginRegistrant.xcframework',
-                          'flutterSampleXCFramework.xcframework',
-                          'Flutter.xcframework'
+  s.vendored_frameworks = ['FlutterPluginRegistrant.xcframework',
+                          'flutterSampleXCFramework.xcframework']
 
   s.ios.deployment_target = '12.0'
 end
